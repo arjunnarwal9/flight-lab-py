@@ -15,9 +15,9 @@ from query import run_queries
 from validator import load_airports
 
 # TODO: put your own details here (plain ASCII, no spaces or underscores)
-STUDENT_ID = "000RDB000"
-FIRST_NAME = "Firstname"
-LAST_NAME = "Lastname"
+STUDENT_ID = "251ADB007"
+FIRST_NAME = "Arjun"
+LAST_NAME = "Arjun"
 
 
 class RuntimeProblem(Exception):

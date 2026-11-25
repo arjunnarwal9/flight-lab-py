@@ -10,7 +10,6 @@ def is_number(value):
     """int or float, but not bool (True and False are ints in Python)."""
     return isinstance(value, (int, float)) and not isinstance(value, bool)
 
-
 def is_valid_query(query):
     """Check keys and value types of a query."""
     if not isinstance(query, dict):
