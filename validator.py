@@ -95,7 +95,6 @@ def validate_row(fields: list[str], airports: set[str]) -> str | None:
 
     return None
 
-
 def to_record(fields: list[str]) -> dict:
     """Turn a valid row into a flight record dictionary."""
     fields = [field.strip() for field in fields]

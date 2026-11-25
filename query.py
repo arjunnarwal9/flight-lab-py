@@ -5,7 +5,6 @@ RECORD_KEYS = ["flight_id", "origin", "destination",
                "departure_datetime", "arrival_datetime", "price"]
 ALLOWED_KEYS = RECORD_KEYS + ["min_price", "sort_by", "order", "limit"]
 
-
 def is_number(value):
     """int or float, but not bool (True and False are ints in Python)."""
     return isinstance(value, (int, float)) and not isinstance(value, bool)

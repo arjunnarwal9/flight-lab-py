@@ -4,7 +4,6 @@ import os
 
 from validator import validate_row, to_record
 
-
 def parse_files(paths: list[str], airports: set[str]) -> tuple[list[dict], list[str]]:
     """Process the CSV files in the order given.
 
